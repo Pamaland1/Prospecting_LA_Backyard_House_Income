@@ -11,9 +11,8 @@ good amount of money.
 
 ## Objective
 
-I wanted to create a tool that determines:
--the potential income of a backyard house
--its feasibility in the homeowner's backyard
+I wanted to create a tool that determines: 1. the potential income of a backyard house, 
+2. its feasibility in the homeowner's backyard
 
 ## Data Sources
 
@@ -99,5 +98,5 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 * [Graciela Carrillo](https://towardsdatascience.com/predicting-airbnb-prices-with-machine-learning-and-location-data-5c1e033d0a5a) - mapping
 * [Laura Lewis](https://towardsdatascience.com/predicting-airbnb-prices-with-machine-learning-and-deep-learning-f46d44afb8a6) - modelling
 * and to my husband, Jesung Park, for supporting me in new endeavors even though its tough
-* and my teachers at METIS for also supporting, assisting, and teaching me mad data science skills.
+* [METIS](https://www.thisismetis.com/live-online-data-science-bootcamp) teachers for also supporting, assisting, and teaching me mad data science skills.
 
