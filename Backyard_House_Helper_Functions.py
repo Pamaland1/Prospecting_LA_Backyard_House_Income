@@ -1,3 +1,30 @@
+#helper functions for Backyard House Project
+
+import pandas as pd
+
+def create_psql_schema(dataframe, schema_name)
+    """ (dataframe, string) --> None
+    
+    Create an empty schema called schema_name in psql and populate schema from a dataframe.  
+    """
+    # Create dictionary to use to connect to pSQL databases
+	params = {
+    	'host': 'localhost',  # We are connecting to our _local_ version of psql
+    	'user': 'agar',
+    	'port': 5432          # port 
+	}
+	
+	#connect to pSQL database
+    connection_string = f'postgres://agar:{params["host"]}@{params["host"]}:{params["port"]}/properties'
+    engine = create_engine(connection_string, pool_pre_ping=True)
+    
+    # Create Empty Schema in pSQL
+    df.iloc[:0].to_sql(schema_name, engine, index=False)
+    
+    # Populate Empty Schema in pSQL
+	df.iloc[:].to_sql(schema_name, engine, index=False, if_exists = 'append', chunksize = 1000)
+
+
 #Define function that takes in the building area, lot area, and outputs the backyard house bedroom capacity
 
 def bedroom_count(sfmain, site):
