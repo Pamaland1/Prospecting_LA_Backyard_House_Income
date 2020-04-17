@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>YIMBYme</title>
+  <style>
+  body{
+    font-family: sans-serif;
+  }
+  .button {
+    background-color: Black;
+    border: none;
+    color: White;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+		width: 400px;
+    font-size: 24px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .animal-card {
+    border: 0px solid #ccc;
+		color: Black;
+    padding: 0px;
+    box-shadow: 0px 0px 0px #eee;
+    width: 400px;
+		font-size: 12px;
+    margin: auto;
+  }
+  </style>
+
+</head>
+
+<body align="center">
+
+  <h1>Enter your address.</h1>
+
+	<body>example address format:</body>
+
+	<body>1070 CASIANO RD LOS ANGELES CA 90049</body>
+
+  <form action="/predict_income/" method="post">
+
+    <div class="animal-card" align="center">
+
+
+      <br>
+        <input type="text" name="address">
+      <br>
+
+
+
+    </div>
+
+  <br>
+
+  <button type="submit" class="button">
+    Check my backyard income
+  </button>
+  </form>
+
+  <br>
+
+  {% if message %}
+  <h2>{{message}}</h2>
+  {% endif %}
+
+</body>
+</html>

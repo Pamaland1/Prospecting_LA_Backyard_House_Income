@@ -26,7 +26,7 @@ that aims to keep the platform honest and identify illegal rentals.
 I used the detailed listings data from March 13, 2020, available here
 under the creative commons license:
 
-*[Inside AirBnB LA](http://data.insideairbnb.com/united-states/ca/los-angeles/2020-03-13/data/listings.csv.gz)
+* [Inside AirBnB LA](http://data.insideairbnb.com/united-states/ca/los-angeles/2020-03-13/data/listings.csv.gz)
 
 I augmented this data with geographical datasets available from Los Angeles' geohub, 
 as well as scraping neighborhood sales price data.  These datasets 
@@ -79,7 +79,7 @@ the home-owner. I also see a potentials from a planning perspective. The city is
 tuning its incentives for different populations in different areas of the city.
 
 You can see the complete project, as well as a Map of the Backyard House Segments of LA at my medium blog:
-* [Prospecting LA's Backyard Houses](https://medium.com/@anupamagarla/prospecting-las-backyard-houses-with-machine-learning-8fdc191e1cf)
+* [Prospecting LA's Backyard Houses](https://medium.com/@anupamagarla/prospecting-las-backyard-houses-with-machine-learning-8fdc191e1cf?source=friends_link&sk=f5060d2a1135087bd1a48cfa2016564f)
 
 
 
