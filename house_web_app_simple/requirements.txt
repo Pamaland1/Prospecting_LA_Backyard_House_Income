@@ -165,7 +165,7 @@ pycparser==2.18
 pydot==1.4.1
 pygam==0.8.0
 PyGithub==1.43.6
-Pygments==2.5.2
+Pygments==2.7.4
 pygpu==0.7.6
 PyJWT==1.7.1
 pymongo==3.9.0
