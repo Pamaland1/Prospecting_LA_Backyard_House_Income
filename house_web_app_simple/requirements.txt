@@ -130,7 +130,7 @@ nbgrader==0.6.1
 networkx==2.4
 nltk==3.4.4
 nose==1.3.7
-notebook==6.0.1
+notebook==6.4.10
 numba==0.45.1
 numpy==1.17.2
 oauthlib==3.0.1
