@@ -167,7 +167,7 @@ pygam==0.8.0
 PyGithub==1.43.6
 Pygments==2.5.2
 pygpu==0.7.6
-PyJWT==1.7.1
+PyJWT==2.4.0
 pymongo==3.9.0
 pyOpenSSL==17.5.0
 pyparsing==2.2.0
