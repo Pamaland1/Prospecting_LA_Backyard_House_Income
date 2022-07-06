@@ -107,7 +107,7 @@ line-profiler==2.1.2
 linear-tsv==1.1.0
 llvmlite==0.29.0+0.g491dcba.dirty
 locket==0.2.0
-lxml==4.4.2
+lxml==4.9.1
 Mako==1.1.0
 Markdown==3.1.1
 MarkupSafe==1.1.1
