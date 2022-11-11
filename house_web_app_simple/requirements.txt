@@ -174,7 +174,7 @@ pyparsing==2.2.0
 pyproj==2.4.2.post1
 pyrsistent==0.15.6
 PySocks==1.6.7
-pyspark==2.4.4
+pyspark==3.2.2
 pytest==5.3.2
 pytest-runner==5.2
 python-dateutil==2.8.0
